@@ -8,8 +8,17 @@ impl zed::Extension for NotesHelper {
     fn new() -> Self {
         Self
     }
+}
 
-    fn activate(&mut self, cx: &mut zed::Context) {
+// Use the macro to register the extension
+zed::register_extension!(NotesHelper);
+
+// This will be injected into Zed through a different mechanism
+#[no_mangle]
+pub extern "C" fn activate_extension(extension_api: &mut dyn std::any::Any) {
+    // Cast the extension_api to the appropriate type
+    if let Ok(cx) = extension_api.downcast_mut::<zed::Context>() {
+        // Register the commands
         cx.register_command("insert_current_date", |_params, cx| {
             let date = Local::now().format("%Y-%m-%d").to_string();
             cx.workspace.insert_text(&date)?;
@@ -55,5 +64,3 @@ impl zed::Extension for NotesHelper {
         });
     }
 }
-
-zed::register_extension!(NotesHelper);

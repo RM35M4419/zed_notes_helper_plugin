@@ -1,0 +1,251 @@
+Docs.rs <https://docs.rs/>
+
+  * zed_extension_api-0.3.0 <#>
+      o zed_extension_api 0.3.0
+      o Permalink <https://docs.rs/zed_extension_api/0.3.0/
+        zed_extension_api/index.html>
+      o Docs.rs crate page <https://docs.rs/crate/zed_extension_api/latest>
+      o Apache-2.0 <https://spdx.org/licenses/Apache-2.0> 
+      o Links
+      o Repository <https://github.com/zed-industries/zed>
+      o crates.io <https://crates.io/crates/zed_extension_api>
+      o Source <https://docs.rs/crate/zed_extension_api/latest/source/>
+      o Owners
+      o maxbrunsfeld <https://crates.io/users/maxbrunsfeld>
+      o maxdeviant <https://crates.io/users/maxdeviant>
+      o as-cii <https://crates.io/users/as-cii>
+      o zed-industries-bot <https://crates.io/users/zed-industries-bot> 
+      o Dependencies
+      o
+          + serde ^1.0 /normal/ <https://docs.rs/serde/%5E1.0>
+          + serde_json ^1.0 /normal/ <https://docs.rs/serde_json/%5E1.0>
+          + wit-bindgen ^0.22 /normal/ <https://docs.rs/wit-bindgen/
+            %5E0.22>
+      o Versions
+      o
+      o *68%* of the crate is documented <https://docs.rs/crate/
+        zed_extension_api/latest>
+  * Platform <#>
+      o i686-pc-windows-msvc <https://docs.rs/crate/zed_extension_api/
+        latest/target-redirect/i686-pc-windows-msvc/zed_extension_api/
+        index.html>
+      o i686-unknown-linux-gnu <https://docs.rs/crate/zed_extension_api/
+        latest/target-redirect/i686-unknown-linux-gnu/zed_extension_api/
+        index.html>
+      o x86_64-apple-darwin <https://docs.rs/crate/zed_extension_api/
+        latest/target-redirect/x86_64-apple-darwin/zed_extension_api/
+        index.html>
+      o x86_64-pc-windows-msvc <https://docs.rs/crate/zed_extension_api/
+        latest/target-redirect/x86_64-pc-windows-msvc/zed_extension_api/
+        index.html>
+      o x86_64-unknown-linux-gnu <https://docs.rs/crate/
+        zed_extension_api/latest/target-redirect/x86_64-unknown-linux-
+        gnu/zed_extension_api/index.html> 
+  * Feature flags <https://docs.rs/crate/zed_extension_api/latest/features>
+
+  * Rust <#>
+      o About docs.rs <https://docs.rs/about>
+      o Privacy policy <https://foundation.rust-lang.org/policies/
+        privacy-policy/#docs.rs>
+      o Rust website <https://www.rust-lang.org/>
+      o The Book <https://doc.rust-lang.org/book/>
+      o Standard Library API Reference <https://doc.rust-lang.org/std/>
+      o Rust by Example <https://doc.rust-lang.org/rust-by-example/>
+      o The Cargo Guide <https://doc.rust-lang.org/cargo/guide/>
+      o Clippy Documentation <https://doc.rust-lang.org/nightly/clippy>
+
+
+    Crate zed_extension_api <#>
+
+
+    zed_extension_api <https://docs.rs/zed_extension_api/latest/
+    zed_extension_api/index.html>0.3.0
+
+  * All Items <https://docs.rs/zed_extension_api/latest/
+    zed_extension_api/all.html>
+
+
+      Crate Items <#reexports>
+
+  * Re-exports <#reexports>
+  * Modules <#modules>
+  * Macros <#macros>
+  * Structs <#structs>
+  * Enums <#enums>
+  * Traits <#traits>
+  * Functions <#functions>
+  * Type Aliases <#types>
+
+
+      Crates
+
+  * zed_extension_api <https://docs.rs/zed_extension_api/latest/
+    zed_extension_api/index.html>
+
+<https://docs.rs/zed_extension_api/latest/zed_extension_api/all.html>
+
+
+  Crate zed_extension_apiCopy item path
+
+Settings <https://docs.rs/zed_extension_api/latest/settings.html>
+Help <https://docs.rs/zed_extension_api/latest/help.html>
+Summary
+
+Source <https://docs.rs/zed_extension_api/latest/src/zed_extension_api/
+extension_api.rs.html#1-369>
+Expand description
+
+The Zed Rust Extension API allows you write extensions for Zed <https://
+zed.dev/> in Rust.
+
+
+    Re-exports§ <#reexports>
+
+|pub use serde_json <https://docs.rs/serde_json/1.0.139/x86_64-unknown-
+linux-gnu/serde_json/index.html>;|
+
+
+    Modules§ <#modules>
+
+http_client <https://docs.rs/zed_extension_api/latest/zed_extension_api/
+http_client/index.html>
+    An HTTP client.
+lsp <https://docs.rs/zed_extension_api/latest/zed_extension_api/lsp/
+index.html>
+    Constructs for interacting with language servers over the Language
+    Server Protocol (LSP).
+process <https://docs.rs/zed_extension_api/latest/zed_extension_api/
+process/index.html>
+    A module for working with processes.
+settings <https://docs.rs/zed_extension_api/latest/zed_extension_api/
+settings/index.html>
+    Provides access to Zed settings.
+
+
+    Macros§ <#macros>
+
+register_extension <https://docs.rs/zed_extension_api/latest/
+zed_extension_api/macro.register_extension.html>
+    Registers the provided type as a Zed extension.
+
+
+    Structs§ <#structs>
+
+CodeLabel <https://docs.rs/zed_extension_api/latest/zed_extension_api/
+struct.CodeLabel.html>
+    A label containing some code.
+CodeLabelSpanLiteral <https://docs.rs/zed_extension_api/latest/
+zed_extension_api/struct.CodeLabelSpanLiteral.html>
+    A span containing a code literal.
+ContextServerId <https://docs.rs/zed_extension_api/latest/
+zed_extension_api/struct.ContextServerId.html>
+    The ID of a context server.
+GithubRelease <https://docs.rs/zed_extension_api/latest/
+zed_extension_api/struct.GithubRelease.html>
+    A GitHub release.
+GithubReleaseAsset <https://docs.rs/zed_extension_api/latest/
+zed_extension_api/struct.GithubReleaseAsset.html>
+    An asset from a GitHub release.
+GithubReleaseOptions <https://docs.rs/zed_extension_api/latest/
+zed_extension_api/struct.GithubReleaseOptions.html>
+    The options used to filter down GitHub releases.
+KeyValueStore <https://docs.rs/zed_extension_api/latest/
+zed_extension_api/struct.KeyValueStore.html>
+    A key-value store.
+LanguageServerId <https://docs.rs/zed_extension_api/latest/
+zed_extension_api/struct.LanguageServerId.html>
+    The ID of a language server.
+Project <https://docs.rs/zed_extension_api/latest/zed_extension_api/
+struct.Project.html>
+    A Zed project.
+SlashCommand <https://docs.rs/zed_extension_api/latest/
+zed_extension_api/struct.SlashCommand.html>
+    A slash command for use in the Assistant.
+SlashCommandArgumentCompletion <https://docs.rs/zed_extension_api/
+latest/zed_extension_api/struct.SlashCommandArgumentCompletion.html>
+    A completion for a slash command argument.
+SlashCommandOutput <https://docs.rs/zed_extension_api/latest/
+zed_extension_api/struct.SlashCommandOutput.html>
+    The output of a slash command.
+SlashCommandOutputSection <https://docs.rs/zed_extension_api/latest/
+zed_extension_api/struct.SlashCommandOutputSection.html>
+    A section in the slash command output.
+Worktree <https://docs.rs/zed_extension_api/latest/zed_extension_api/
+struct.Worktree.html>
+    A Zed worktree.
+
+
+    Enums§ <#enums>
+
+Architecture <https://docs.rs/zed_extension_api/latest/
+zed_extension_api/enum.Architecture.html>
+    A platform architecture.
+CodeLabelSpan <https://docs.rs/zed_extension_api/latest/
+zed_extension_api/enum.CodeLabelSpan.html>
+    A span within a code label.
+DownloadedFileType <https://docs.rs/zed_extension_api/latest/
+zed_extension_api/enum.DownloadedFileType.html>
+    The type of a downloaded file.
+LanguageServerInstallationStatus <https://docs.rs/zed_extension_api/
+latest/zed_extension_api/enum.LanguageServerInstallationStatus.html>
+    The installation status for a language server.
+Os <https://docs.rs/zed_extension_api/latest/zed_extension_api/enum.Os.html>
+    An operating system.
+
+
+    Traits§ <#traits>
+
+Extension <https://docs.rs/zed_extension_api/latest/zed_extension_api/
+trait.Extension.html>
+    A Zed extension.
+
+
+    Functions§ <#functions>
+
+current_platform <https://docs.rs/zed_extension_api/latest/
+zed_extension_api/fn.current_platform.html>
+    Gets the current operating system and architecture.
+download_file <https://docs.rs/zed_extension_api/latest/
+zed_extension_api/fn.download_file.html>
+    Downloads a file from the given URL and saves it to the given path
+    within the extension’s working directory.
+github_release_by_tag_name <https://docs.rs/zed_extension_api/latest/
+zed_extension_api/fn.github_release_by_tag_name.html>
+    Returns the GitHub release with the specified tag name for the given
+    GitHub repository.
+latest_github_release <https://docs.rs/zed_extension_api/latest/
+zed_extension_api/fn.latest_github_release.html>
+    Returns the latest release for the given GitHub repository.
+make_file_executable <https://docs.rs/zed_extension_api/latest/
+zed_extension_api/fn.make_file_executable.html>
+    Makes the file at the given path executable.
+node_binary_path <https://docs.rs/zed_extension_api/latest/
+zed_extension_api/fn.node_binary_path.html>
+    Returns the path to the Node binary used by Zed.
+npm_install_package <https://docs.rs/zed_extension_api/latest/
+zed_extension_api/fn.npm_install_package.html>
+    Installs the specified NPM package.
+npm_package_installed_version <https://docs.rs/zed_extension_api/latest/
+zed_extension_api/fn.npm_package_installed_version.html>
+    Returns the installed version of the given NPM package, if it exists.
+npm_package_latest_version <https://docs.rs/zed_extension_api/latest/
+zed_extension_api/fn.npm_package_latest_version.html>
+    Returns the latest version of the given NPM package.
+set_language_server_installation_status <https://docs.rs/
+zed_extension_api/latest/zed_extension_api/
+fn.set_language_server_installation_status.html>
+    Updates the installation status for the given language server.
+
+
+    Type Aliases§ <#types>
+
+Command <https://docs.rs/zed_extension_api/latest/zed_extension_api/
+type.Command.html>
+EnvVars <https://docs.rs/zed_extension_api/latest/zed_extension_api/
+type.EnvVars.html>
+Range <https://docs.rs/zed_extension_api/latest/zed_extension_api/
+type.Range.html>
+Result <https://docs.rs/zed_extension_api/latest/zed_extension_api/
+type.Result.html>
+    A result returned from a Zed extension.
+
