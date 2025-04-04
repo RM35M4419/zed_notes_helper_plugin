@@ -16,3 +16,23 @@ category = "Text"
 title = "Insert Current Time"
 description = "Insert the current time in ISO format (HH:MM:SS)"
 category = "Text"
+
+[commands.insert_current_datetime]
+title = "Insert Current Date & Time"
+description = "Insert the current date and time (YYYY-MM-DD HH:MM:SS)"
+category = "Text"
+
+[commands.insert_current_datetime_iso]
+title = "Insert ISO Datetime"
+description = "Insert the current datetime in ISO 8601 format with timezone"
+category = "Text"
+
+[commands.insert_day_of_week]
+title = "Insert Day of Week"
+description = "Insert the current day of the week (e.g., Monday)"
+category = "Text"
+
+[commands.insert_file_path]
+title = "Insert File Path"
+description = "Insert the path of the current file"
+category = "Text"

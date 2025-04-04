@@ -1,0 +1,32 @@
+    Checking notes-helper v0.1.0 (/home/ab/Projects/zed_notes_helper_plugin)
+error[E0407]: method `activate` is not a member of trait `zed::Extension`
+  --> src/lib.rs:12:5
+   |
+12 | /     fn activate(&mut self, cx: &mut zed::Context) {
+13 | |         cx.register_command("insert_current_date", |_params, cx| {
+14 | |             let date = Local::now().format("%Y-%m-%d").to_string();
+15 | |             cx.workspace.insert_text(&date)?;
+...  |
+55 | |         });
+56 | |     }
+   | |_____^ not a member of trait `zed::Extension`
+
+error[E0412]: cannot find type `Context` in crate `zed`
+  --> src/lib.rs:12:42
+   |
+12 |     fn activate(&mut self, cx: &mut zed::Context) {
+   |                                          ^^^^^^^ not found in `zed`
+   |
+help: consider importing this struct
+   |
+1  + use std::task::Context;
+   |
+help: if you import `Context`, refer to it directly
+   |
+12 -     fn activate(&mut self, cx: &mut zed::Context) {
+12 +     fn activate(&mut self, cx: &mut Context) {
+   |
+
+Some errors have detailed explanations: E0407, E0412.
+For more information about an error, try `rustc --explain E0407`.
+error: could not compile `notes-helper` (lib) due to 2 previous errors

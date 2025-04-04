@@ -1,0 +1,360 @@
+ 1.
+ 2. General
+ 3. Getting Started <https://zed.dev/docs/getting-started.html>
+ 4. System Requirements <https://zed.dev/docs/system-requirements.html>
+ 5. Linux <https://zed.dev/docs/linux.html>
+ 6. Windows <https://zed.dev/docs/windows.html>
+ 7. Telemetry <https://zed.dev/docs/telemetry.html>
+ 8. Workspace Persistence <https://zed.dev/docs/workspace-persistence.html>
+ 9. Additional Learning Materials <https://zed.dev/docs/additional-
+    learning-materials.html>
+10.
+11. Configuration
+12. Configuring Zed <https://zed.dev/docs/configuring-zed.html>
+13. Configuring Languages <https://zed.dev/docs/configuring-languages.html>
+14. Key bindings <https://zed.dev/docs/key-bindings.html>
+15. Snippets <https://zed.dev/docs/snippets.html>
+16. Themes <https://zed.dev/docs/themes.html>
+17. Icon Themes <https://zed.dev/docs/icon-themes.html>
+18. Vim Mode <https://zed.dev/docs/vim.html>
+19.
+20. Using Zed
+21. Multibuffers <https://zed.dev/docs/multibuffers.html>
+22. Outline Panel <https://zed.dev/docs/outline-panel.html>
+23. Code Completions <https://zed.dev/docs/completions.html>
+24. Channels <https://zed.dev/docs/channels.html>
+25. Collaboration <https://zed.dev/docs/collaboration.html>
+26. Git <https://zed.dev/docs/git.html>
+27. Tasks <https://zed.dev/docs/tasks.html>
+28. Remote Development <https://zed.dev/docs/remote-development.html>
+29. Environment Variables <https://zed.dev/docs/environment.html>
+30. REPL <https://zed.dev/docs/repl.html>
+31.
+32. Assistant
+33. Overview <https://zed.dev/docs/assistant/assistant.html>
+34. Configuration <https://zed.dev/docs/assistant/configuration.html>
+35. Assistant Panel <https://zed.dev/docs/assistant/assistant-panel.html>
+36. Contexts <https://zed.dev/docs/assistant/contexts.html>
+37. Inline Assistant <https://zed.dev/docs/assistant/inline-assistant.html>
+38. Commands <https://zed.dev/docs/assistant/commands.html>
+39. Prompts <https://zed.dev/docs/assistant/prompting.html>
+40. Context Servers <https://zed.dev/docs/assistant/context-servers.html>
+41.
+     1. Model Context Protocol <https://zed.dev/docs/assistant/model-
+        context-protocol.html>
+42. Model Improvement <https://zed.dev/docs/model-improvement.html>
+43.
+44. Extensions
+45. Overview <https://zed.dev/docs/extensions.html>
+46. Installing Extensions <https://zed.dev/docs/extensions/installing-
+    extensions.html>
+47. Developing Extensions <https://zed.dev/docs/extensions/developing-
+    extensions.html>
+48. Language Extensions <https://zed.dev/docs/extensions/languages.html>
+49. Theme Extensions <https://zed.dev/docs/extensions/themes.html>
+50. Icon Theme Extensions <https://zed.dev/docs/extensions/icon-themes.html>
+51. Slash Command Extensions <https://zed.dev/docs/extensions/slash-
+    commands.html>
+52. Context Server Extensions <https://zed.dev/docs/extensions/context-
+    servers.html>
+53.
+54. Language Support
+55. All Languages <https://zed.dev/docs/languages.html>
+56. Ansible <https://zed.dev/docs/languages/ansible.html>
+57. AsciiDoc <https://zed.dev/docs/languages/asciidoc.html>
+58. Astro <https://zed.dev/docs/languages/astro.html>
+59. Bash <https://zed.dev/docs/languages/bash.html>
+60. Biome <https://zed.dev/docs/languages/biome.html>
+61. C <https://zed.dev/docs/languages/c.html>
+62. C++ <https://zed.dev/docs/languages/cpp.html>
+63. C# <https://zed.dev/docs/languages/csharp.html>
+64. Clojure <https://zed.dev/docs/languages/clojure.html>
+65. CSS <https://zed.dev/docs/languages/css.html>
+66. Dart <https://zed.dev/docs/languages/dart.html>
+67. Deno <https://zed.dev/docs/languages/deno.html>
+68. Diff <https://zed.dev/docs/languages/diff.html>
+69. Docker <https://zed.dev/docs/languages/docker.html>
+70. Elixir <https://zed.dev/docs/languages/elixir.html>
+71. Elm <https://zed.dev/docs/languages/elm.html>
+72. Emmet <https://zed.dev/docs/languages/emmet.html>
+73. Erlang <https://zed.dev/docs/languages/erlang.html>
+74. Fish <https://zed.dev/docs/languages/fish.html>
+75. GDScript <https://zed.dev/docs/languages/gdscript.html>
+76. Gleam <https://zed.dev/docs/languages/gleam.html>
+77. GLSL <https://zed.dev/docs/languages/glsl.html>
+78. Go <https://zed.dev/docs/languages/go.html>
+79. Groovy <https://zed.dev/docs/languages/groovy.html>
+80. Haskell <https://zed.dev/docs/languages/haskell.html>
+81. Helm <https://zed.dev/docs/languages/helm.html>
+82. HTML <https://zed.dev/docs/languages/html.html>
+83. Java <https://zed.dev/docs/languages/java.html>
+84. JavaScript <https://zed.dev/docs/languages/javascript.html>
+85. Julia <https://zed.dev/docs/languages/julia.html>
+86. JSON <https://zed.dev/docs/languages/json.html>
+87. Jsonnet <https://zed.dev/docs/languages/jsonnet.html>
+88. Kotlin <https://zed.dev/docs/languages/kotlin.html>
+89. Lua <https://zed.dev/docs/languages/lua.html>
+90. Luau <https://zed.dev/docs/languages/luau.html>
+91. Makefile <https://zed.dev/docs/languages/makefile.html>
+92. Markdown <https://zed.dev/docs/languages/markdown.html>
+93. Nim <https://zed.dev/docs/languages/nim.html>
+94. OCaml <https://zed.dev/docs/languages/ocaml.html>
+95. PHP <https://zed.dev/docs/languages/php.html>
+96. Prisma <https://zed.dev/docs/languages/prisma.html>
+97. Proto <https://zed.dev/docs/languages/proto.html>
+98. PureScript <https://zed.dev/docs/languages/purescript.html>
+99. Python <https://zed.dev/docs/languages/python.html>
+100. R <https://zed.dev/docs/languages/r.html>
+101. Rego <https://zed.dev/docs/languages/rego.html>
+102. ReStructuredText <https://zed.dev/docs/languages/rst.html>
+103. Racket <https://zed.dev/docs/languages/racket.html>
+104. Roc <https://zed.dev/docs/languages/roc.html>
+105. Ruby <https://zed.dev/docs/languages/ruby.html>
+106. Rust <https://zed.dev/docs/languages/rust.html>
+107. Scala <https://zed.dev/docs/languages/scala.html>
+108. Scheme <https://zed.dev/docs/languages/scheme.html>
+109. Shell Script <https://zed.dev/docs/languages/sh.html>
+110. Svelte <https://zed.dev/docs/languages/svelte.html>
+111. Swift <https://zed.dev/docs/languages/swift.html>
+112. Tailwind CSS <https://zed.dev/docs/languages/tailwindcss.html>
+113. Terraform <https://zed.dev/docs/languages/terraform.html>
+114. TOML <https://zed.dev/docs/languages/toml.html>
+115. TypeScript <https://zed.dev/docs/languages/typescript.html>
+116. Uiua <https://zed.dev/docs/languages/uiua.html>
+117. Vue <https://zed.dev/docs/languages/vue.html>
+118. XML <https://zed.dev/docs/languages/xml.html>
+119. YAML <https://zed.dev/docs/languages/yaml.html>
+120. Yarn <https://zed.dev/docs/languages/yarn.html>
+121. Zig <https://zed.dev/docs/languages/zig.html>
+122.
+123. Developing Zed
+124. Developing Zed <https://zed.dev/docs/development.html>
+125.
+     1. macOS <https://zed.dev/docs/development/macos.html>
+     2. Linux <https://zed.dev/docs/development/linux.html>
+     3. Windows <https://zed.dev/docs/development/windows.html>
+     4. Local Collaboration <https://zed.dev/docs/development/local-
+        collaboration.html>
+     5. Using Debuggers <https://zed.dev/docs/development/debuggers.html>
+126. Release Process <https://zed.dev/docs/development/releases.html>
+127. Debugging Crashes <https://zed.dev/docs/development/debugging-
+    crashes.html>
+
+/
+
+/
+
+/
+
+/
+
+  * Light
+  * Dark
+
+/
+
+/
+
+Zed Industries <https://zed.dev/>
+
+Download <https://zed.dev/download>
+
+On this page
+
+Developing Extensions <https://zed.dev/docs/extensions/developing-
+extensions#developing-extensions>Extension Capabilities <https://
+zed.dev/docs/extensions/developing-extensions#extension-
+capabilities>Developing an Extension Locally <https://zed.dev/docs/
+extensions/developing-extensions#developing-an-extension-
+locally>Directory Structure of a Zed Extension <https://zed.dev/docs/
+extensions/developing-extensions#directory-structure-of-a-zed-
+extension>WebAssembly <https://zed.dev/docs/extensions/developing-
+extensions#webassembly>Publishing your extension <https://zed.dev/docs/
+extensions/developing-extensions#publishing-your-extension>Updating an
+extension <https://zed.dev/docs/extensions/developing-
+extensions#updating-an-extension>
+
+
+  Developing Extensions <#developing-extensions>
+
+
+    Extension Capabilities <#extension-capabilities>
+
+Extensions can add the following capabilities to Zed:
+
+  * Languages <https://zed.dev/docs/extensions/languages.html>
+  * Themes <https://zed.dev/docs/extensions/themes.html>
+  * Icon Themes <https://zed.dev/docs/extensions/icon-themes.html>
+  * Slash Commands <https://zed.dev/docs/extensions/slash-commands.html>
+  * Context Servers <https://zed.dev/docs/extensions/context-servers.html>
+
+
+    Developing an Extension Locally <#developing-an-extension-locally>
+
+Before starting to develop an extension for Zed, be sure to install Rust
+via rustup <https://www.rust-lang.org/tools/install>.
+
+    Rust must be installed via rustup. If you have Rust installed via
+    homebrew or otherwise, installing dev extensions will not work.
+
+When developing an extension, you can use it in Zed without needing to
+publish it by installing it as a /dev extension/.
+
+From the extensions page, click the |Install Dev Extension| button and
+select the directory containing your extension.
+
+If you already have a published extension with the same name installed,
+your dev extension will override it.
+
+
+    Directory Structure of a Zed Extension <#directory-structure-of-a-
+    zed-extension>
+
+A Zed extension is a Git repository that contains an |extension.toml|.
+This file must contain some basic information about the extension:
+
+/
+
+/
+|id = "my-extension"
+name = "My extension"
+version = "0.0.1"
+schema_version = 1
+authors = ["Your Name <you@example.com>"]
+description = "My cool extension"
+repository = "https://github.com/your-name/my-zed-extension"
+
+|
+
+In addition to this, there are several other optional files and
+directories that can be used to add functionality to a Zed extension. An
+example directory structure of an extension that provides all
+capabilities is as follows:
+
+/
+
+/
+|my-extension/
+  extension.toml
+  Cargo.toml
+  src/
+    lib.rs
+  languages/
+    my-language/
+      config.toml
+      highlights.scm
+  themes/
+    my-theme.json
+
+|
+
+
+    WebAssembly <#webassembly>
+
+Procedural parts of extensions are written in Rust and compiled to
+WebAssembly. To develop an extension that includes custom code, include
+a |Cargo.toml| like this:
+
+/
+
+/
+|[package]
+name = "my-extension"
+version = "0.0.1"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.1.0"
+
+|
+
+Make sure to use the latest version of the |zed_extension_api| <https://
+crates.io/crates/zed_extension_api> available on crates.io.
+
+In the |src/lib.rs| file in your Rust crate you will need to define a
+struct for your extension and implement the |Extension| trait, as well
+as use the |register_extension!| macro to register your extension:
+
+/
+
+/
+|use zed_extension_api as zed;
+
+struct MyExtension {
+    // ... state
+}
+
+impl zed::Extension for MyExtension {
+    // ...
+}
+
+zed::register_extension!(MyExtension);
+
+|
+
+
+    Publishing your extension <#publishing-your-extension>
+
+To publish an extension, open a PR to the |zed-industries/extensions|
+repo <https://github.com/zed-industries/extensions>.
+
+    Note: It is very helpful if you fork the |zed-industries/extensions|
+    repo to a personal GitHub account instead of a GitHub organization,
+    as this allows Zed staff to push any needed changes to your PR to
+    expedite the publishing process.
+
+In your PR, do the following:
+
+ 1. Add your extension as a Git submodule within the |extensions/| directory
+
+/
+
+/
+|git submodule add https://github.com/your-username/foobar-zed.git extensions/foobar
+git add extensions/foobar
+
+|
+
+ 2. Add a new entry to the top-level |extensions.toml| file containing
+    your extension:
+
+/
+
+/
+|[my-extension]
+submodule = "extensions/my-extension"
+version = "0.0.1"
+
+|
+
+    If your extension is in a subdirectory within the submodule you can
+    use the |path| field to point to where the extension resides.
+
+ 3. Run |pnpm sort-extensions| to ensure |extensions.toml| and
+    |.gitmodules| are sorted
+
+Once your PR is merged, the extension will be packaged and published to
+the Zed extension registry.
+
+    Extension IDs and names should not contain |zed| or |Zed|, since
+    they are all Zed extensions.
+
+
+    Updating an extension <#updating-an-extension>
+
+To update an extension, open a PR to the |zed-industries/extensions|
+repo <https://github.com/zed-industries/extensions>.
+
+In your PR do the following:
+
+ 1. Update the extension's submodule to the commit of the new version.
+ 2. Update the |version| field for the extension in |extensions.toml|
+      * Make sure the |version| matches the one set in |extension.toml|
+        at the particular commit.
+
+If you'd like to automate this process, there is a community GitHub
+Action <https://github.com/huacnlee/zed-extension-action> you can use.
+

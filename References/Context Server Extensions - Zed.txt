@@ -1,0 +1,230 @@
+ 1.
+ 2. General
+ 3. Getting Started <https://zed.dev/docs/getting-started.html>
+ 4. System Requirements <https://zed.dev/docs/system-requirements.html>
+ 5. Linux <https://zed.dev/docs/linux.html>
+ 6. Windows <https://zed.dev/docs/windows.html>
+ 7. Telemetry <https://zed.dev/docs/telemetry.html>
+ 8. Workspace Persistence <https://zed.dev/docs/workspace-persistence.html>
+ 9. Additional Learning Materials <https://zed.dev/docs/additional-
+    learning-materials.html>
+10.
+11. Configuration
+12. Configuring Zed <https://zed.dev/docs/configuring-zed.html>
+13. Configuring Languages <https://zed.dev/docs/configuring-languages.html>
+14. Key bindings <https://zed.dev/docs/key-bindings.html>
+15. Snippets <https://zed.dev/docs/snippets.html>
+16. Themes <https://zed.dev/docs/themes.html>
+17. Icon Themes <https://zed.dev/docs/icon-themes.html>
+18. Vim Mode <https://zed.dev/docs/vim.html>
+19.
+20. Using Zed
+21. Multibuffers <https://zed.dev/docs/multibuffers.html>
+22. Outline Panel <https://zed.dev/docs/outline-panel.html>
+23. Code Completions <https://zed.dev/docs/completions.html>
+24. Channels <https://zed.dev/docs/channels.html>
+25. Collaboration <https://zed.dev/docs/collaboration.html>
+26. Git <https://zed.dev/docs/git.html>
+27. Tasks <https://zed.dev/docs/tasks.html>
+28. Remote Development <https://zed.dev/docs/remote-development.html>
+29. Environment Variables <https://zed.dev/docs/environment.html>
+30. REPL <https://zed.dev/docs/repl.html>
+31.
+32. Assistant
+33. Overview <https://zed.dev/docs/assistant/assistant.html>
+34. Configuration <https://zed.dev/docs/assistant/configuration.html>
+35. Assistant Panel <https://zed.dev/docs/assistant/assistant-panel.html>
+36. Contexts <https://zed.dev/docs/assistant/contexts.html>
+37. Inline Assistant <https://zed.dev/docs/assistant/inline-assistant.html>
+38. Commands <https://zed.dev/docs/assistant/commands.html>
+39. Prompts <https://zed.dev/docs/assistant/prompting.html>
+40. Context Servers <https://zed.dev/docs/assistant/context-servers.html>
+41.
+     1. Model Context Protocol <https://zed.dev/docs/assistant/model-
+        context-protocol.html>
+42. Model Improvement <https://zed.dev/docs/model-improvement.html>
+43.
+44. Extensions
+45. Overview <https://zed.dev/docs/extensions.html>
+46. Installing Extensions <https://zed.dev/docs/extensions/installing-
+    extensions.html>
+47. Developing Extensions <https://zed.dev/docs/extensions/developing-
+    extensions.html>
+48. Language Extensions <https://zed.dev/docs/extensions/languages.html>
+49. Theme Extensions <https://zed.dev/docs/extensions/themes.html>
+50. Icon Theme Extensions <https://zed.dev/docs/extensions/icon-themes.html>
+51. Slash Command Extensions <https://zed.dev/docs/extensions/slash-
+    commands.html>
+52. Context Server Extensions <https://zed.dev/docs/extensions/context-
+    servers.html>
+53.
+54. Language Support
+55. All Languages <https://zed.dev/docs/languages.html>
+56. Ansible <https://zed.dev/docs/languages/ansible.html>
+57. AsciiDoc <https://zed.dev/docs/languages/asciidoc.html>
+58. Astro <https://zed.dev/docs/languages/astro.html>
+59. Bash <https://zed.dev/docs/languages/bash.html>
+60. Biome <https://zed.dev/docs/languages/biome.html>
+61. C <https://zed.dev/docs/languages/c.html>
+62. C++ <https://zed.dev/docs/languages/cpp.html>
+63. C# <https://zed.dev/docs/languages/csharp.html>
+64. Clojure <https://zed.dev/docs/languages/clojure.html>
+65. CSS <https://zed.dev/docs/languages/css.html>
+66. Dart <https://zed.dev/docs/languages/dart.html>
+67. Deno <https://zed.dev/docs/languages/deno.html>
+68. Diff <https://zed.dev/docs/languages/diff.html>
+69. Docker <https://zed.dev/docs/languages/docker.html>
+70. Elixir <https://zed.dev/docs/languages/elixir.html>
+71. Elm <https://zed.dev/docs/languages/elm.html>
+72. Emmet <https://zed.dev/docs/languages/emmet.html>
+73. Erlang <https://zed.dev/docs/languages/erlang.html>
+74. Fish <https://zed.dev/docs/languages/fish.html>
+75. GDScript <https://zed.dev/docs/languages/gdscript.html>
+76. Gleam <https://zed.dev/docs/languages/gleam.html>
+77. GLSL <https://zed.dev/docs/languages/glsl.html>
+78. Go <https://zed.dev/docs/languages/go.html>
+79. Groovy <https://zed.dev/docs/languages/groovy.html>
+80. Haskell <https://zed.dev/docs/languages/haskell.html>
+81. Helm <https://zed.dev/docs/languages/helm.html>
+82. HTML <https://zed.dev/docs/languages/html.html>
+83. Java <https://zed.dev/docs/languages/java.html>
+84. JavaScript <https://zed.dev/docs/languages/javascript.html>
+85. Julia <https://zed.dev/docs/languages/julia.html>
+86. JSON <https://zed.dev/docs/languages/json.html>
+87. Jsonnet <https://zed.dev/docs/languages/jsonnet.html>
+88. Kotlin <https://zed.dev/docs/languages/kotlin.html>
+89. Lua <https://zed.dev/docs/languages/lua.html>
+90. Luau <https://zed.dev/docs/languages/luau.html>
+91. Makefile <https://zed.dev/docs/languages/makefile.html>
+92. Markdown <https://zed.dev/docs/languages/markdown.html>
+93. Nim <https://zed.dev/docs/languages/nim.html>
+94. OCaml <https://zed.dev/docs/languages/ocaml.html>
+95. PHP <https://zed.dev/docs/languages/php.html>
+96. Prisma <https://zed.dev/docs/languages/prisma.html>
+97. Proto <https://zed.dev/docs/languages/proto.html>
+98. PureScript <https://zed.dev/docs/languages/purescript.html>
+99. Python <https://zed.dev/docs/languages/python.html>
+100. R <https://zed.dev/docs/languages/r.html>
+101. Rego <https://zed.dev/docs/languages/rego.html>
+102. ReStructuredText <https://zed.dev/docs/languages/rst.html>
+103. Racket <https://zed.dev/docs/languages/racket.html>
+104. Roc <https://zed.dev/docs/languages/roc.html>
+105. Ruby <https://zed.dev/docs/languages/ruby.html>
+106. Rust <https://zed.dev/docs/languages/rust.html>
+107. Scala <https://zed.dev/docs/languages/scala.html>
+108. Scheme <https://zed.dev/docs/languages/scheme.html>
+109. Shell Script <https://zed.dev/docs/languages/sh.html>
+110. Svelte <https://zed.dev/docs/languages/svelte.html>
+111. Swift <https://zed.dev/docs/languages/swift.html>
+112. Tailwind CSS <https://zed.dev/docs/languages/tailwindcss.html>
+113. Terraform <https://zed.dev/docs/languages/terraform.html>
+114. TOML <https://zed.dev/docs/languages/toml.html>
+115. TypeScript <https://zed.dev/docs/languages/typescript.html>
+116. Uiua <https://zed.dev/docs/languages/uiua.html>
+117. Vue <https://zed.dev/docs/languages/vue.html>
+118. XML <https://zed.dev/docs/languages/xml.html>
+119. YAML <https://zed.dev/docs/languages/yaml.html>
+120. Yarn <https://zed.dev/docs/languages/yarn.html>
+121. Zig <https://zed.dev/docs/languages/zig.html>
+122.
+123. Developing Zed
+124. Developing Zed <https://zed.dev/docs/development.html>
+125.
+     1. macOS <https://zed.dev/docs/development/macos.html>
+     2. Linux <https://zed.dev/docs/development/linux.html>
+     3. Windows <https://zed.dev/docs/development/windows.html>
+     4. Local Collaboration <https://zed.dev/docs/development/local-
+        collaboration.html>
+     5. Using Debuggers <https://zed.dev/docs/development/debuggers.html>
+126. Release Process <https://zed.dev/docs/development/releases.html>
+127. Debugging Crashes <https://zed.dev/docs/development/debugging-
+    crashes.html>
+
+/
+
+/
+
+/
+
+/
+
+  * Light
+  * Dark
+
+/
+
+/
+
+Zed Industries <https://zed.dev/>
+
+Download <https://zed.dev/download>
+
+On this page
+
+Context Servers <https://zed.dev/docs/extensions/context-
+servers#context-servers>Example extension <https://zed.dev/docs/
+extensions/context-servers#example-extension>Defining context servers
+<https://zed.dev/docs/extensions/context-servers#defining-context-servers>
+
+
+  Context Servers <#context-servers>
+
+Extensions may provide context servers <https://zed.dev/docs/assistant/
+context-servers.html> for use in the Assistant.
+
+
+    Example extension <#example-extension>
+
+To see a working example of an extension that provides context servers,
+check out the |postgres-context-server| extension <https://github.com/
+zed-extensions/postgres-context-server>.
+
+This extension can be installed as a dev extension <https://zed.dev/
+docs/extensions/developing-extensions.html#developing-an-extension-
+locally> if you want to try it out for yourself.
+
+
+    Defining context servers <#defining-context-servers>
+
+A given extension may provide one or more context servers. Each context
+server must be registered in the |extension.toml|:
+
+/
+
+/
+|[context_servers.my-context-server]
+
+|
+
+Then, in the Rust code for your extension, implement the |
+context_server_command| method on your extension:
+
+/
+
+/
+|#![allow(unused)]
+fn main() {
+impl zed::Extension for MyExtension {
+    fn context_server_command(
+        &mut self,
+        context_server_id: &ContextServerId,
+        project: &zed::Project,
+    ) -> Result<zed::Command> {
+        Ok(zed::Command {
+            command: get_path_to_context_server_executable()?,
+            args: get_args_for_context_server()?,
+            env: get_env_for_context_server()?,
+        })
+    }
+}
+}
+
+|
+
+This method should return the command to start up a context server,
+along with any arguments or environment variables necessary for it to
+function.
+
+If you need to download the context server from an external source—like
+GitHub Releases or npm—you can also do this here.
+
